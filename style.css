@@ -1,0 +1,93 @@
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+  background-image: url("./pexels-pixabay-236968.jpg");
+  background-size: cover;
+  object-fit: cover;
+}
+
+nav {
+  display: flex;
+  padding: 30px;
+}
+
+nav.logo {
+  color: white;
+}
+
+nav .logo a {
+  color: white;
+  text-decoration: none;
+  text-transform: capitalize;
+  letter-spacing: 1px;
+  font-size: 30px;
+}
+.content-wrapper {
+  position: absolute;
+  top: 60%;
+  left: 5%;
+  transform: translate(-5%, -60%);
+  -webkit-transform: translate(-5%, -60%);
+  -moz-transform: translate(-5%, -60%);
+  -ms-transform: translate(-5%, -60%);
+  -o-transform: translate(-5%, -60%);
+  width: auto;
+}
+.content h5 {
+  color: white;
+  text-transform: capitalize;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.content h1 {
+  color: white;
+  text-transform: capitalize;
+  font-size: 50px;
+}
+.content h1 span {
+  color: crimson;
+}
+
+.count-down-timer {
+  margin-top: 25px;
+  display: flex;
+}
+.count-down-timer > div {
+  margin: 0px 30px;
+  display: flex;
+  justify-content: start;
+  flex-direction: column;
+}
+.count-down-timer > div:first-child {
+  margin: 0 !important;
+}
+.count-down-timer > div h3 {
+  color: white;
+  margin-bottom: 10px;
+  font-size: 45px;
+}
+
+a.learn_btn {
+  margin-top: 20px;
+  display: flex;
+  border: 1px solid white;
+  width: 110px;
+  padding: 15px;
+  text-decoration: none;
+  color: white;
+  text-transform: capitalize;
+}
+
+a.learn_btn i {
+  margin-left: 10px;
+}
